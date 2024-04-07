@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/manojcloud/k8s-project'
+                git 'https://github.com/k8s'
             }
         }
         stage('Build the Docker image') {
